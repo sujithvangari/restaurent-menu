@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Veg Menu</title>
+    <style>
+        body {
+
+      font-family:  sans-serif,Arial;
+      background-color:aquamarine;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .menu-item label {
+        font-size: 30px;
+      font-weight: bold;
+    }
+    .menu-item span {
+        font-size: 30px;
+      font-weight: bold;
+    }
+
+    .menu-item img {
+      width: 200px;
+      height: 200px;
+      margin-right: 10px;
+    }
+
+    .menu-item input[type="number"] {
+        height: 50px;
+        width: 200px;
+        font-size: 30px;
+    }
+    
+    .total{
+        text-align: center;
+
+    }
+
+    h1{
+        font-size: 50px;
+        font-family: serif;
+        background-color: yellow;
+        padding: 25px;
+    }
+
+    .total button{
+        background-color:darkslateblue;
+        color: white;
+        font-size: 40px;
+        padding: 10px 20px;
+    }
+    
+    </style>
+</head>
+<body>
+
+    <h1>Menu Card</h1>
+    <div class="menu-item">
+        <img src="../assets/images/chicken.jpg" alt="chicken biryani">
+        <label for="chicken">Chicken Biryani</label>
+        <span>₹140</span>
+        <input type="number" min="0" value="0" id="chicken">
+    </div>
+
+    <div class="menu-item">
+        <img src="../assets/images/mutton.jpg" alt="mutton biryani">
+        <label for="mutton">Mutton Biryani</label>
+        <span>₹180</span>
+        <input type="number" min="0" value="0" id="mutton">
+    </div>
+
+    <div class="menu-item">
+        <img src="../assets/images/fish.jpg" alt="fish biryani">
+        <label for="fish">Fish Biryani</label>
+        <span>₹220</span>
+        <input type="number" min="0" value="0" id="fish">
+    </div>
+
+    <div class="menu-item">
+        <img src="../assets/images/t-chicken.jpg" alt="Tandoori chicken">
+        <label for="tandoori-chicken">Tandoori Chicken</label>
+        <span>₹200</span>
+        <input type="number" min="0" value="0" id="t-chicken">
+    </div>
+
+    <div class="menu-item">
+        <img src="../assets/images/t-kebab.jpg" alt="Tandoori kebab">
+        <label for="tandoori-kebab">Tandoori kebab</label>
+        <span>₹200</span>
+        <input type="number" min="0" value="0" id="t-kebab">
+    </div>
+
+    <div class="menu-item">
+        <img src="../assets/images/c-tikka.jpg" alt="chicken tikka">
+        <label for="chicken-tikka">chicken tikka</label>
+        <span>₹200</span>
+        <input type="number" min="0" value="0" id="c-tikka">
+    </div>
+
+    <div class="menu-item">
+        <img src="../assets/images/butter-chicken.jpg" alt="Butter Chicken">
+        <label for="butter-chicken">Butter Chicken</label>
+        <span>₹120</span>
+        <input type="number" min="0" value="0" id="butter-chicken">
+    </div>
+    
+    <div class="menu-item">
+        <img src="../assets/images/ginger-chicken.jpg" alt="Ginger Chicken">
+        <label for="ginger-chicken">Ginger Chicken</label>
+        <span>₹100</span>
+        <input type="number" min="0" value="0" id="ginger-chicken">
+    </div>
+    
+    <div class="menu-item">
+        <img src="../assets/images/chicken-fry.jpg" alt="Chicken Fry">
+        <label for="chicken-fry">Chicken Fry</label>
+        <span>₹80</span>
+        <input type="number" min="0" value="0" id="chicken-fry">
+    </div>
+    
+    <div class="menu-item">
+        <img src="../assets/images/tawa-chicken.jpg" alt="Tawa Chicken">
+        <label for="tawa-chicken">Tawa Chicken</label>
+        <span>₹100</span>
+        <input type="number" min="0" value="0" id="tawa-chicken">
+    </div>
+    
+    <div class="menu-item">
+        <img src="../assets/images/chilli-chicken.jpg" alt="Chilli Chicken">
+        <label for="chilli-chicken">Chilli Chicken</label>
+        <span>₹65</span>
+        <input type="number" min="0" value="0" id="chilli-chicken">
+    </div>
+    
+
+    <div class="total">
+        <a href="reciept.html"><button>ORDER!!</button></a>
+        
+    </div>
+
+    
+</body>
+</html>

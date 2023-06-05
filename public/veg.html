@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veg Menu</title>
+    <style>
+        body {
+            font-family:  sans-serif, Arial;
+            background-color: aquamarine;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: serif;
+            background-color: yellow;
+            padding: 25px;
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .menu-item label {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .menu-item span {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .menu-item img {
+            width: 200px;
+            height: 200px;
+            margin-right: 10px;
+        }
+
+        .menu-item input[type="number"] {
+            height: 50px;
+            width: 200px;
+            font-size: 30px;
+        }
+
+        .total {
+            text-align: center;
+        }
+
+        .total button {
+            background-color: darkslateblue;
+            color: white;
+            font-size: 40px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu Card</h1>
+
+    <div class="menu-item">
+        <img src="../assets/images/paneer-tikka.jpg" alt="Paneer Tikka">
+        <label for="paneer-tikka">Paneer Tikka</label>
+        <span>₹150</span>
+        <input type="number" min="0" value="0" id="paneer-tikka">
+    </div>
+
+    <div class="menu-item">
+        <img src="../assets/images/veg-biryani.jpg" alt="Veg Biryani">
+        <label for="veg-biryani">Veg Biryani</label>
+        <span>₹120</span>
+        <input type="number" min="0" value="0" id="veg-biryani">
+    </div>
+
+    <div class="menu-item">
+        <img src="../assets/images/aloo-gobi.jpg" alt="Aloo Gobi">
+        <label for="aloo-gobi">Aloo Gobi</label>
+        <span>₹100</span>
+        <input type="number" min="0" value="0" id="aloo-gobi">
+    </div>
+
+    <div class="menu-item">
+        <img src="../assets/images/palak-paneer.jpg" alt="Palak Paneer">
+        <label for="palak-paneer">Palak Paneer</label>
+        <span>₹120</span>
+        <input type="number" min="0" value="0" id="palak-paneer">
+    </div>
+
+    <div class="menu-item">
+        <img src="../assets/images/dal-makhani.jpg" alt="Dal Makhani">
+        <label for="dal-makhani">Dal Makhani</label>
+        <span>₹90</span>
+        <input type="number" min="0" value id="dal-makhani">
+    </div>
+    
+    <div class="total">
+        <a href="reciept.html"><button>ORDER!!</button></a>
+        
+    </div>
+        
+    </body>
+    </html>
